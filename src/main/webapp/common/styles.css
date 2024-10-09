@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    margin-left: 20px;
+}
+
+header nav {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.signin-signup {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
